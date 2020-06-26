@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "username": "atlass",
+      "profileImage": "https://images.unsplash.com/photo-1529123202249-4f6224196c9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+      "image": "https://images.unsplash.com/photo-1506956191951-7a88da4435e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+      "meta": {
+        "title": "Lynchburg, United States",
+        "description": "www.instagram.com",
+        "date": "25/06/2020"
+      }
+    },
+    {
+      "username": "peacefulevenings",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=731&q=80",
+      "profileImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=683&q=80",
+      "meta": {
+        "title": "A morning yoga session peering into the jungle in Ubud, Bali",
+        "description": "Downtown, Long Beach, United States",
+        "date": "20/06/2020"
+      }
+    },
+    {
+      "username": "jakopowens",
+      "image": "https://images.unsplash.com/photo-1592685530107-f2227c2c6bb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+      "profileImage": "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "meta": {
+        "title": "Europe Street beat",
+        "description": "Dublino, Irlanda",
+        "date": "10/06/2020"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "username": "atlass",
+      "profileImage": "https://images.unsplash.com/photo-1529123202249-4f6224196c9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+      "email": "atlass@gmail.com",
+      "motto": "live, laugh"
+    },
+    {
+      "id": 2,
+      "username": "peacefulevenings",
+      "profileImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=683&q=80",
+      "email": "peacefulevenings@gmail.com",
+      "motto": "yoga is peacefull"
+    },
+    {
+      "id": 3,
+      "username": "jakopowens",
+      "profileImage": "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "email": "sarahlee@gmail.com",
+      "motto": "repair, use"
+    }
+  ]
+}

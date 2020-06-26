@@ -1,0 +1,27 @@
+.logo {
+  width: 120px;
+  height: 40px;
+  background: url("../../logo.png");
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+.ant-layout-header{
+  padding: 0 !important;
+}
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: #57752E !important;
+  font-weight: 500;
+}
+.ant-menu-horizontal > .ant-menu-item a:hover{
+  color: #57752E !important;
+  font-weight: 500;
+}
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected{
+  border-bottom: 2px solid #FFDCBA !important;
+}
