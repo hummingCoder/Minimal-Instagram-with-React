@@ -1,4 +1,4 @@
-import { initialState, SET_FEED_POSTS, SET_DETAIL_POST, SET_USER_POSTS } from "./constants";
+import { initialState, SET_FEED_POSTS, SET_USER_POSTS } from "./constants";
 
 export const postsReducer = (state = initialState, action) => {
     switch (action.type) {

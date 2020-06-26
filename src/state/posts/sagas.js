@@ -6,7 +6,7 @@ function* fetchFeedPosts() {
     let data;
     yield delay(1200);
     try {
-        const successResponse = yield fetch('http://localhost:3000/posts');
+        const successResponse = yield fetch('http://localhost:3004/posts');
         data = yield successResponse.json();
 
     } catch (error) {
@@ -22,7 +22,7 @@ function* fetchUserPosts(action) {
     let data;
     yield delay(1200);
     try {
-        const successResponse = yield fetch('http://localhost:3000/posts');
+        const successResponse = yield fetch('http://localhost:3004/posts');
         data = yield successResponse.json();
         yield put(setUserPostsAction(data.filter(a => a.username === action.username)));
 

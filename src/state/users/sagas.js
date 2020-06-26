@@ -5,9 +5,8 @@ function* findProfile(action) {
     let data;
     yield delay(1200);
     try {
-        const successResponse = yield fetch('http://localhost:3000/profile');
+        const successResponse = yield fetch('http://localhost:3004/profile');
         data = yield successResponse.json();
-        console.log("function*findProfile -> data", data)
         yield put(setProfileAction(data.find(p => p.username === action.username)))
     } catch (error) {
         console.log(error)

@@ -8,9 +8,6 @@ import { profileSelector } from '../../state/users/selectors';
 import { userPostsSelector } from '../../state/posts/selectors';
 import { fetchProfileAction, setProfileAction } from '../../state/users/actions';
 import { fetchUserPostsAction, setUserPostsAction } from '../../state/posts/actions';
-import {
-    Link
-} from "react-router-dom";
 import Post from '../../components/Post';
 
 const { Content } = Layout;
@@ -29,7 +26,7 @@ export default () => {
             dispatch(setProfileAction(null));
             dispatch(setUserPostsAction(null));
         }
-    }, []);
+    }, [dispatch, username]);
 
     console.log(person)
     return person ?

@@ -14,7 +14,7 @@ export default () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(fetchFeedPostsActions())
-    }, [])
+    }, [dispatch])
     return <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
         <Row>
             <Col span={7} />
