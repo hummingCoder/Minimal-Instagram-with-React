@@ -112,6 +112,7 @@ const Landing = () => {
                   </Button>
                 </Form.Item>
               </Form>
+              <p>sample username : atlass , password : atlass</p>
             </Card>
           </div>
         </Col>
