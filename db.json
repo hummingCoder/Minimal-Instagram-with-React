@@ -11,6 +11,26 @@
       }
     },
     {
+      "username": "jakopowens",
+      "image": "https://images.unsplash.com/photo-1591546929460-53fbeacf31da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "profileImage": "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "meta": {
+        "title": "Man in black",
+        "description": "Dublino, Irlanda",
+        "date": "10/06/2020"
+      }
+    },
+    {
+      "username": "atlass",
+      "profileImage": "https://images.unsplash.com/photo-1529123202249-4f6224196c9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+      "image": "https://images.unsplash.com/photo-1584922273872-541b2373e544?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "meta": {
+        "title": "Brooklyn, NY, USA",
+        "description": "Fest",
+        "date": "25/06/2020"
+      }
+    },
+    {
       "username": "peacefulevenings",
       "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=731&q=80",
       "profileImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=683&q=80",
@@ -29,6 +49,16 @@
         "description": "Dublino, Irlanda",
         "date": "10/06/2020"
       }
+    },
+    {
+      "username": "atlass",
+      "profileImage": "https://images.unsplash.com/photo-1529123202249-4f6224196c9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+      "image": "https://images.unsplash.com/photo-1527963841590-34ea3172750d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "meta": {
+        "title": "THOUGHTCATALOG.COM",
+        "description": "Fest",
+        "date": "25/06/2020"
+      }
     }
   ],
   "comments": [
@@ -44,21 +74,24 @@
       "username": "atlass",
       "profileImage": "https://images.unsplash.com/photo-1529123202249-4f6224196c9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
       "email": "atlass@gmail.com",
-      "motto": "live, laugh"
+      "motto": "live, laugh",
+      "password": "atlass"
     },
     {
       "id": 2,
       "username": "peacefulevenings",
       "profileImage": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=683&q=80",
       "email": "peacefulevenings@gmail.com",
-      "motto": "yoga is peacefull"
+      "motto": "yoga is peacefull",
+      "password": "peacefulevenings"
     },
     {
       "id": 3,
       "username": "jakopowens",
       "profileImage": "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      "email": "sarahlee@gmail.com",
-      "motto": "repair, use"
+      "email": "jakopowens@gmail.com",
+      "motto": "repair, use",
+      "password": "jakopowens"
     }
   ]
 }
