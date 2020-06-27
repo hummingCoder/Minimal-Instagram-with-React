@@ -8,6 +8,7 @@ import { Layout } from "antd";
 import { store } from "./state";
 import "./App.css";
 import Main from "./containers/Main";
+import Detail from "./containers/Detail";
 import Landing from "./components/Landing";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Unauthorized from "./components/Unauthorized";
@@ -20,6 +21,8 @@ export default () => {
           <Header />
           <Switch>
             <Route exact path="/" component={Landing} />
+            <Route path="/:username" component={Detail} />
+
             <ProtectedRoute exact path="/home" component={Main} />
             <Route exact path="/unauthorized" component={Unauthorized} />
           </Switch>
