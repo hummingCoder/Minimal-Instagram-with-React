@@ -21,8 +21,7 @@ export default () => {
           <Header />
           <Switch>
             <Route exact path="/" component={Landing} />
-            <Route path="/:username" component={Detail} />
-
+            <Route path="/profile/:username" component={Detail} />
             <ProtectedRoute exact path="/home" component={Main} />
             <Route exact path="/unauthorized" component={Unauthorized} />
           </Switch>
