@@ -32,7 +32,6 @@ export default () => {
     };
   }, [dispatch, username]);
 
-  console.log(person);
   return person ? (
     <Content
       className="site-layout-background"
